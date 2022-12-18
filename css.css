@@ -1,53 +1,83 @@
 body {
 	background-color: #0a0d15;
 	font-size: 16px;
-	font-family: "Noto Sans SC", serif;
+	font-family: 'Noto Sans SC', serif;
 }
 
 p.footer {
 	text-align: center;
 	color: #efc6ad;
-	font-size: 12px}
-	
+	margin-right: 300px;
+	margin-left: 230px;
+	font-family: 'Noto Serif SC', serif;
+	font-style: italic;
+	font-size: 12px;
+	}
 	
 .navi{
 	text-decoration: none;
 	color: #efc6ad;
 }
 
-p.center-text {
-	margin-top: 40px;
-	margin-right: 270px;
-	margin-left: 270px;
-	line-height: 29px;
+ul li {
+   list-style: none;
+   width: 120px;
+	padding-top: 10px;
+	font-weight: 600;
+	margin-left: 840px;
+   height: 35px;}
+
+
+nav.means {
 	color: #efc6ad;
+	text-decoration: none;
+	font-family: 'Noto Serif SC', serif;
+	font-weight: 600;
 	text-align: center;
+	font-size:19px;
+	margin-top: 100px;
+	position: fixed;
 }
 
+ul.box{
+	list-style-type: none;
+	margin-left: 10px;
+	width: 50px;
+	font-weight: 600;
+	height: 1px;
+}
+
+
 p.head {
-	margin-top: 40px;
-	margin-right: 270px;
-	margin-left: 270px;
+	margin-top: 60px;
+	margin-right: 300px;
+	margin-left: 230px;
+	margin-bottom: 45px;
 	line-height: 29px;
 	color: #efc6ad;
+	font-size: 30px; 
+	font-weight: 900;
+	font-family: 'Noto Serif SC', serif;
 }
 
 p.quote {
 	margin-top: 20px;
-	margin-right: 270px;
-	margin-left: 270px;
+	margin-right: 300px;
+	margin-left: 230px;
 	line-height: 29px;
 	color: #8b796f;
 	font-size: 14px;
 	text-align: center;
 	font-style: italic;
+	font-family: 'Noto Serif SC', serif;
 }
 
 p.underpicture {
 	margin-top: -25px;
-	margin-right: 270px;
-	margin-left: 270px;
-	line-height: 29px;
+	margin-right: 300px;
+	margin-left: 230px;
+	line-height: 30px;
+	font-family: 'Noto Serif SC', serif;
 	color: #8b796f;
 	font-size: 14px;
 	text-align: center;
@@ -60,65 +90,64 @@ p.underpicture {
 
 p.date {
 	margin-top: 1px;
-	margin-right: 270px;
-	margin-left: 270px;
+	margin-right: 300px;
+	margin-left: 230px;
 	line-height: 29px;
 	margin-bottom: 1px;
+	font-family: 'Noto Serif SC', serif;
 	color: #8b796f;
 	font-size: 14px;
 	font-style: italic;
 }
 
-nav.means {
-	color: #efc6ad;
-	text-align: center;
-	text-decoration: none;
-	background-color: #383949;
-	font-family: "Noto Sans SC", serif;
-	font-weight:800;
-	font-size:18px;
-}
-
-ul.box{
-	list-style-type: none;
-	width: 640px;
-	height: 70px;
-	margin: 0 auto;
-	overflow:hidden
-}
-
-ul li {
-	float: left;
-   list-style: none;
-   width: 120px;
-	padding-top:20px;
-   height: 80px;}
-
-h1 {
-	margin-top: 50px;
-	margin-right: 270px;
-	margin-left: 270px;
-	color: #efc6ad;
-	text-align: center;
-	font-size: 50px;
-	font-family: "Noto Sans SC", serif;
-}
-
-h2 {
-	margin-top: 50px;
-	margin-right: 270px;
-	margin-left: 270px;
-	margin-bottom: 0px;
-	color: #efc6ad;
-	font-family: "Noto Sans SC", serif;
-}
-
 p.left-text {
-	margin-top: 20px;
-	margin-right: 270px;
-	margin-left: 270px;
+	margin-top: 1px;
+	margin-right: 300px;
+	margin-left: 230px;
 	margin-bottom: 1px;
+	font-family: 'Noto Serif SC', serif;
 	color: #efc6ad;
+}
+
+h2{
+	margin-top: 1px;
+	margin-right: 300px;
+	margin-left: 230px;
+	margin-bottom: 1px;
+	font-size:25px;	
+	font-weight: 700;
+	font-family: 'Noto Serif SC', serif;
+	color: #efc6ad;
+}
+
+img {
+position: absolute
+/*绝对位移*/
+left: 120px
+/*left 属性规定元素的左边缘。该属性定义了定位元素左外边距边界与其包含块左边界之间的偏移。*/
+width: 67%;
+}
+
+
+p.second-text {
+	position: absolute;
+	margin-top: -40px;
+	margin-right: 300px;
+	margin-left: 230px;
+	margin-bottom: 20px;
+	color: #8b796f;
+	font-family: 'Noto Serif SC', serif;
+	font-style: italic;
+}
+
+
+hr.hr {
+	border: none;
+   height: 1px;
+	margin-top: 50px;
+	margin-right: 300px;
+	margin-left: 230px;
+	background-color: #8b796f;
 }
 
 a.nlink{
